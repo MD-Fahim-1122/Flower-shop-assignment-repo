@@ -187,3 +187,63 @@ main {
     font-weight: 400;
     line-height: 30px;
 }
+
+.flowers-item {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flowers {
+    width: 200px;
+    height: 250px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+
+.letest-deals-section {
+    width: 990px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: url(../Rectangle\ 9.png), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+
+}
+
+.deals-head {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.deals-discount {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.email-input {
+    width: 400px;
+    height: 20px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.submit-btn {
+    height: 25px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: none;
+    background: #E55473;
+}
+
+.form {
+    text-align: center;
+}
+
+/* footer */
